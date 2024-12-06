@@ -1,0 +1,7 @@
+name:Parkinson
+
+random_variables:status(status);MDVPFoHz(MDVPFoHz);MDVPFhiHz(MDVPFhiHz);MDVPFloHz(MDVPFloHz);MDVPJitter(MDVPJitter);MDVPJitterAbs(MDVPJitterAbs);MDVPRAP(MDVPRAP);MDVPPPQ(MDVPPPQ);JitterDDP(JitterDDP);MDVPShimmer(MDVPShimmer);MDVPShimmerdB(MDVPShimmerdB);ShimmerAPQ3(ShimmerAPQ3);ShimmerAPQ5(ShimmerAPQ5);MDVPAPQ(MDVPAPQ);ShimmerDDA(ShimmerDDA);NHR(NHR);HNR(HNR);RPDE(RPDE);DFA(DFA);spread1(spread1);spread2(spread2);D2(D2);PPE(PPE)
+
+structure:P(status);P(MDVPFoHz|status);P(MDVPFhiHz|status);P(MDVPFloHz|status);P(MDVPJitter|status);P(MDVPJitterAbs|status);P(MDVPRAP|status);P(MDVPPPQ|status);P(JitterDDP|status);P(MDVPShimmer|status);P(MDVPShimmerdB|status);P(ShimmerAPQ3|status);P(ShimmerAPQ5|status);P(MDVPAPQ|status);P(ShimmerDDA|status);P(NHR|status);P(HNR|status);P(RPDE|status);P(DFA|status);P(spread1|status);P(spread2|status);P(D2|status);P(PPE|status)
+
+regression_models:config/Parkinson/config-parkinsons_1.pkl
